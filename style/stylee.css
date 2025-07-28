@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+
+    background-color: rgba(137, 43, 226, 0.842);
+}
+
+.relogio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    width: 300px;
+    max-width: auto;
+    height: auto;
+    max-height: 600px;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+}
+
+.hora {
+    padding: 10px;
+    background-color: black;
+    width: 150px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.data {
+    font-weight: bolder;
+}
+
+.alarme {
+    width: 300px;
+    max-width: auto;
+    height: auto;
+    max-height: 600px;
+    
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+}
+
+.ativo {
+    color: white;
+    background-color: blue;
+}
+
+.alarme input {
+    border: 1px solid black;
+    padding-left: 3px;
+    height: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.alarme button {
+    height: 25px;
+    width: 80px;
+    border: 1px solid black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+#btnAtivar {
+    background-color: green;
+}
+
+#btnPara {
+    background-color: red;
+}
